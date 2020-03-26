@@ -1,0 +1,30 @@
+/* 全局样式 */
+html,
+body,
+#app{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.el-breadcrumb{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.el-table{
+    margin-top: 10px;
+}
+.el-pagination{
+    margin-top: 10px;
+}
+.el-tag+.el-tag {
+    margin-left: 15px;
+}
+.el-divider{
+    margin-top: 30px;
+}
+.sub_title_s{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 600
+}
