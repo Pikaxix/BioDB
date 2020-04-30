@@ -9,9 +9,12 @@
 
 from flask import Blueprint
 from app import Mongodb
+from flask_cors import CORS
+
 
 # create BluePrint object
 api = Blueprint("api", __name__)
+CORS(api)
 
 from . import demo
-from . import system_view
+from . import microbe

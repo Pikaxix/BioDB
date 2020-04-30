@@ -28,17 +28,16 @@ def setupLogging(levle):
 
 def create_app(config_name):
     app = Flask(__name__)
+    # enable CORS
     config_class=configs.get(config_name)
     app.config.from_object(config_class)
     Mongodb.init_app(app)
     setupLogging(configs[config_name].LOGGIONG_LEVEL)
-
-    # enable CORS
-    CORS(app, supports_credentials=True)
 
     # WTF_CSRFprotect
     # CSRFProtect(app)
     # Register BluePrint
     from app import api
     app.register_blueprint(api.api, url_prefix="/api")
+    CORS(app, supports_credentials=True)
     return app

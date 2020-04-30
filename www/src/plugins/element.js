@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import 'element-ui/lib/theme-chalk/index.css' // element-ui的css
-import VueGoogleCharts from 'vue-google-charts'
 import {
   Button,
   Form,
@@ -30,7 +29,13 @@ import {
   Tabs,
   TabPane,
   Divider,
-  Tag
+  Tag,
+  Radio,
+  RadioGroup,
+  Checkbox,
+  CheckboxGroup,
+  Loading
+
 } from 'element-ui'
 
 Vue.use(Button)
@@ -53,7 +58,6 @@ Vue.use(Row)
 Vue.use(Col)
 Vue.use(Footer)
 Vue.use(Scrollbar)
-Vue.use(VueGoogleCharts)
 Vue.use(Breadcrumb)
 Vue.use(BreadcrumbItem)
 Vue.use(Card)
@@ -63,3 +67,8 @@ Vue.use(Tabs)
 Vue.use(TabPane)
 Vue.use(Divider)
 Vue.use(Tag)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Loading)

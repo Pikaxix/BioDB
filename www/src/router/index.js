@@ -1,43 +1,52 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../components/Home.vue'
-import Broswer from '../components/Broswer.vue'
-import BroswerView from '../components/systems/broswer_view.vue'
-import Contact from '../components/Contact.vue'
-import MotherBoard from '../components/MotherBoard.vue'
-import SystemView from '../components/systems/system_view.vue'
-import ItemPage from '../components/systems/ItemPage.vue'
-import Research from '../components/Research.vue'
-Vue.use(VueRouter)
+import Home from '../components/basic/Home.vue'
+import Broswer from '../components/basic/Broswer.vue'
+import BroswerView from '../components/broswer/broswer_view.vue'
+import Microbe from '../components/microbe/microbe.vue'
+import Phage from '../components/phage/phage.vue'
+import Help from '../components/basic/Help.vue'
+import SystemView from '../components/microbe/system_view.vue'
+import ItemPage from '../components/microbe/ItemPage.vue'
+
 // 传入插件
+Vue.use(VueRouter)
 
 // 通过routes配置组件之间的映射关系
 const routes = [
   { path: '', redirect: '/home' },
   { path: '/home', component: Home },
-  { path: '/about', component: Contact },
-  { path: '/research', component: Research },
   {
     path: '/broswer',
     component: Broswer,
-    redirect: '/broswer_view',
     children: [
-      { path: '/broswer_view', component: BroswerView },
-      { path: '/CRISPR', component: SystemView },
-      { path: '/CRISPR/itempage', component: ItemPage },
-      { path: '/RM', component: SystemView },
-      { path: '/RM/itempage', component: ItemPage },
-      { path: '/TA', component: SystemView },
-      { path: '/TA/itempage', component: ItemPage },
-      { path: '/Abi', component: SystemView },
-      { path: '/Abi/itempage', component: ItemPage },
-      { path: '/BREX', component: SystemView },
-      { path: '/BREX/itempage', component: ItemPage },
-      { path: '/pAgos', component: SystemView },
-      { path: '/pAgos/itempage', component: ItemPage }
+      { path: '/', component: BroswerView },
+      {
+        path: '/broswer/:system',
+        component: SystemView,
+        children: [
+          { path: 'itempage', component: ItemPage }
+        ]
+      }
     ]
   },
-  { path: '/motherboard', component: MotherBoard }
+  {
+    path: '/microbe',
+    component: Microbe,
+    children: [
+      // { path: 'itempage/:nowTab', component: ItemPage },
+      {
+        path: '/microbe/:system',
+        component: SystemView,
+        children: [
+          { path: 'itempage/:nowTab', component: ItemPage }
+        ]
+      }
+    ]
+  },
+  { path: '/itempage/:genome_name', component: ItemPage },
+  { path: '/help', component: Help },
+  { path: '/phage', component: Phage }
 ]
 
 const router = new VueRouter({

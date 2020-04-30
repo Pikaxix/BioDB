@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71f938c1-2fe0-4cdb-aa4a-ccf1319a9825" name="默认更改列表" comment="" />
+    <list default="true" id="71f938c1-2fe0-4cdb-aa4a-ccf1319a9825" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/db_flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db_flask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/system_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/microbe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../www/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../www/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../www/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../www/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/assets/imgs/body_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/assets/imgs/body_map_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/assets/imgs/motherboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/Broswer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/Contact.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/MotherBoard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/Research.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/systems/ItemPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/systems/broswer_view.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/components/systems/system_view.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../www/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/plugins/bootstrap-vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/plugins/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/../www/src/plugins/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../www/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../www/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,26 +47,33 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZGBEKwheqUXyF1RfSYILUSxKTX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="db_flask" type="Python.FlaskServer">
       <module name="db_flask" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="target" value="$PROJECT_DIR$/manage.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -73,6 +109,25 @@
       <workItem from="1584588152479" duration="26809000" />
       <workItem from="1584669804065" duration="25651000" />
       <workItem from="1584868606270" duration="864000" />
+      <workItem from="1586508768918" duration="203000" />
+      <workItem from="1586509800457" duration="3401000" />
+      <workItem from="1586780973610" duration="122000" />
+      <workItem from="1586781137379" duration="594000" />
+      <workItem from="1587219486185" duration="2591000" />
+      <workItem from="1587277325428" duration="1594000" />
+      <workItem from="1587299384520" duration="3011000" />
+      <workItem from="1587311013796" duration="146000" />
+      <workItem from="1587311233258" duration="544000" />
+      <workItem from="1587344073125" duration="2013000" />
+      <workItem from="1587351296287" duration="6496000" />
+      <workItem from="1587397761320" duration="5792000" />
+      <workItem from="1587454273128" duration="5518000" />
+      <workItem from="1587911686078" duration="1963000" />
+      <workItem from="1587916645906" duration="214000" />
+      <workItem from="1588039883495" duration="12048000" />
+      <workItem from="1588130122377" duration="17860000" />
+      <workItem from="1588215293784" duration="1956000" />
+      <workItem from="1588256985918" duration="887000" />
     </task>
     <servers />
   </component>
@@ -80,17 +135,56 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584508712899">
+    <state x="174" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588141222833">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1584508712899" />
-    <state x="186" y="44" key="SettingsEditor" timestamp="1584591299043">
+    <state x="174" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1588141222833" />
+    <state x="500" y="188" key="FileChooserDialogImpl" timestamp="1587916860503">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="186" y="44" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1584591299043" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584670558016">
+    <state x="500" y="188" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1587916860503" />
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1588141069087">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1584670558016" />
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588141069087" />
+    <state width="1397" height="276" key="GridCell.Tab.0.center" timestamp="1588141069085">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588141069085" />
+    <state width="1397" height="276" key="GridCell.Tab.0.left" timestamp="1588141069085">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588141069085" />
+    <state width="1397" height="276" key="GridCell.Tab.0.right" timestamp="1588141069086">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588141069086" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1588141069087">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588141069087" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1588141069087">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588141069087" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1588141069087">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588141069087" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1588141069087">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588141069087" />
+    <state x="186" y="44" key="SettingsEditor" timestamp="1587311356884">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="186" y="44" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1587311356884" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1588131855269">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1588131855269" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/db_flask$db_flask.coverage" NAME="db_flask Coverage Results" MODIFIED="1588141047308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

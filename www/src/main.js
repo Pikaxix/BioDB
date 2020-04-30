@@ -1,15 +1,23 @@
 import '@babel/polyfill'
 import 'mutationobserver-shim'
 import Vue from 'vue'
-import './plugins/bootstrap-vue'
 import App from './App.vue'
 import router from './router/'
 import './plugins/element.js'
+import './plugins/axios.js'
+import './plugins/chart.js'
 import './assets/css/global.css'
-import axios from 'axios'
+import Router from 'vue-router'
 
-axios.defaults.baseURL = 'http://127.0.0.1:5000/api/'
-Vue.prototype.axios = axios
+import VCharts from 'v-charts'
+Vue.use(VCharts)
+
+Vue.use(Router)
+
+const originalPush = Router.prototype.push
+Router.prototype.push = function push (location) {
+  return originalPush.call(this, location).catch(err => err)
+}
 
 Vue.config.productionTip = false
 
